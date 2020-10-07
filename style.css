@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.texto {
+    box-sizing: border-box;
+    block-size: auto;
+}
+
+.botao-falar {
+    padding: 4;
+    background-color: purple;
+    opacity: 200;
+}
+
+.botao-parar {
+    padding: 4;
+    background-color: black;
+    size: 700;
+    text-decoration-color: white;
+}

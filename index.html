@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <title>Leitor de texto</title>
+    </head>
+        <body>
+            <div class="texto" contenteditable oninput="setText(event)">Seu texto aqui</div>
+            <button onclick="speak()" class="botao-falar">Falar</button>
+            <button onclick="stop()" class="botao-parar">Parar</button>
+        </body>
+</html>
