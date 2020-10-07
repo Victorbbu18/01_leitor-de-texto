@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 
-.texto {
+.campo-texto {
     box-sizing: border-box;
     block-size: auto;
 }
@@ -19,4 +19,4 @@ body {
     background-color: black;
     size: 700;
     text-decoration-color: white;
-}
+} 

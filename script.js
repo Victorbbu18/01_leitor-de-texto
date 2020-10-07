@@ -1,7 +1,7 @@
 const utterance = new SpeechSynthesisUtterance();
 
 utterance.lang = "pt-BR";
-utterance.rate = 1;
+utterance.rate = 2;
 
 function speak() {
     speechSynthesis.speak(utterance);
@@ -13,4 +13,4 @@ function stop() {
 
 function setText(event) {
     utterance.text = event.target.innerText;
-}
+} 
