@@ -4,11 +4,15 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="style.css">
         <script type="text/javascript" src="script.js"></script>
-        <title>Leitor de texto</title>
+        <title>Leitor de textos</title>
     </head>
         <body>
-            <div class="campo-texto" contenteditable oninput="setText(event)">Seu texto aqui</div>
-            <button onclick="speak()" class="botao-falar">Falar</button>
-            <button onclick="stop()" class="botao-parar">Parar</button>
+            <div class="container">
+                <div class="campo-texto" contenteditable oninput="setText(event)">Digite seu texto aqui</div>
+                <div class="buttons">
+                    <button onclick="speak()" class="botao-falar">Falar</button>
+                    <button onclick="stop()" class="botao-parar">Parar</button>
+                </div>
+            </div>           
         </body>
-</html> 
+</html>
